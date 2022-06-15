@@ -1,0 +1,12 @@
+ _____________________________
+|  __________________________ |
+| |        UNITS            | |      
+| | INTRODUCTION        [1] | |
+| | WHAT IS POWERSHELL  [X] | |
+| | EXERCISE - COMMANDS [3] | |
+| | LOCATE COMMANDS     [4] | |
+| | EXERCISE - LOCATE   [5] | |
+| | KNOWLEDGE CHECK     [6] | |
+| | SUMMARY             [X] | |
+| |_________________________| |
+|_____________________________|

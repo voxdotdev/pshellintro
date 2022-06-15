@@ -1,0 +1,21 @@
+ _____________________________
+|  __________________________ |
+| |        UNITS            | |      
+| | INTRODUCTION        [X] | |
+| | WHAT IS POWERSHELL  [2] | |
+| | EXERCISE - COMMANDS [3] | |
+| | LOCATE COMMANDS     [4] | |
+| | EXERCISE - LOCATE   [5] | |
+| | KNOWLEDGE CHECK     [6] | |
+| | SUMMARY             [7] | |
+| |_________________________| |
+|_____________________________|
+
+LEARNING OBJECTIVES
+
+Understand what PowerShell is, uses 
+Use commands to automate tasks 
+
+PREREQUISITS 
+Command line shells (Command Prompt / Git Bash)
+VSC + Extensions 
