@@ -2,7 +2,7 @@
 |  __________________________ |
 | |        UNITS            | |      
 | | INTRODUCTION        [1] | |
-| | WHAT IS POWERSHELL  [X] | |
+| | WHAT IS POWERSHELL  [2] | |
 | | EXERCISE - COMMANDS [3] | |
 | | LOCATE COMMANDS     [4] | |
 | | EXERCISE - LOCATE   [5] | |
