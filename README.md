@@ -1,6 +1,6 @@
-### Introduction to Powershell - Microsoft
+### [Introduction to Powershell - Microsoft](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/1-introduction)
 
-https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/1-introduction
+
 
 ### Introduction
 
@@ -50,9 +50,7 @@ Typing text commands directly into a computer console
 - PowerShell is cross-platform but if using anything beyond Windows 8 or later, installation will be required. 
 - Windows 8+, You can open Windows PowerShell from the Start menu.
 
-### PowerShell extension for Visual Studio Code
-
-[Recommended Visual Studio Code Plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
+### [PowerShell extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
 ## Exercise - Run your first PowerShell commands
 
