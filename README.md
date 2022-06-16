@@ -53,7 +53,9 @@ Typing text commands directly into a computer console
 ### [PowerShell extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
 ## Exercise - Run your first PowerShell commands
-`$PSVersionTable` - command to verify PowerShell installation 
+
+### `$PSVersionTable`
+- command to verify PowerShell installation 
 
 Because `$PSVersionTable` is an object, you can append it with a period to acess a specific property, for example, `$PSVersionTable.PSVersion`
 
@@ -118,7 +120,7 @@ cmdlet's function.
     - Run this command to drill down into that response and learn more about it. 
 
 ## Exercise - Locate Commands
-- Run `Get-Command -Noun File*`
+### Run `Get-Command -Noun File*`
 
 <details> 
 <summary>Output</summary>
