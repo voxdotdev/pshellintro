@@ -5,8 +5,10 @@ This repository will cover the PowerShell coursework avaiable through
 
 Level: Beginner 
 
-### UNIT 1 
+### [UNIT 1](docs/UNIT1.md)
 [Introduction to PowerShell](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/)
+
+
 
 ### UNIT 2 
 [Discover commands in PowerShell](https://docs.microsoft.com/en-us/learn/modules/discover-commands/)
