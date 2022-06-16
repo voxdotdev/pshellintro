@@ -113,8 +113,10 @@ cmdlet's function.
     - Run this command to drill down into that response and learn more about it. 
 
 ## Exercise - Locate Commands
-1. Run `Get-Command -Noun File*` and record response. 
+1. Run `Get-Command -Noun File*` and record response.
+
 Response: 
+
 <table>
 <tr>
 <th>CommandType</th>
