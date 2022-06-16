@@ -115,8 +115,6 @@ cmdlet's function.
 ## Exercise - Locate Commands
 1. Run `Get-Command -Noun File*`
 
-    Response: 
-
 <table>
 <tr>
 <th>CommandType</th>
