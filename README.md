@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 #pshellintro
 ## Introduction to Powershell - Microsoft
+=======
+# pshellintro
+## Introduction to Powershell - Microsoft
+
+### UNITS
+#### INTRODUCTION
+>>>>>>> 895724cceff05de29c59afd181d90c6004737797
 https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/1-introduction
 
 ## LEARNING OBJECTIVES
