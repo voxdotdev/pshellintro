@@ -152,7 +152,7 @@ cmdlet's function.
 </table>
 </details> 
 
-- Further filter the response via the `-Verb` flag 
+### Further filter the response via the `-Verb` flag 
 <details>
 <summary>Hint</summary>
 <code>syntax: `Get-Command -Verb Get -Noun File*</code>
