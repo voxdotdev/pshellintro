@@ -141,12 +141,11 @@ cmdlet's function.
 <th>Microsoft.PowerShell.Utility</th>
 </tr>
 </table>
+<details> 
+<summary>2. Further filter the response via the `-Verb` flag 
+<sup>*syntax: `Get-Command -Verb Get -Noun File*`*</sup></summary>
 
-2. Further filter the response via the `-Verb` flag
 
-<sup>*syntax: `Get-Command -Verb Get -Noun File*`*</sup>
-
-<summary>
 <table>
 <tr>
 <th>CommandType</th>
@@ -161,7 +160,7 @@ cmdlet's function.
 <th>Microsoft.PowerShell.Utility</th>
 </tr>
 </table>
-</summary>
+</details> 
 
 Only one record matches because you specified both the `-Noun` parameter and the `-Verb`
 
