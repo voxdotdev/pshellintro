@@ -54,8 +54,63 @@ Typing text commands directly into a computer console
 ## `$PSVersionTable`
 - command to verify PowerShell installation 
 
+<details>
+<summary>
+Returns
+</summary>
+<table>
+<tr>
+<th>
+Name
+</th>
+<th>
+Value
+</th>
+</tr>
+<tr>
+<th>
+PSVersion
+</th>
+<th>
+5.1.19041.1682
+</th>
+</tr>
+<tr>
+<th>
+PSEdition
+</th>
+<th>
+Desktop
+</th>
+</tr>
+</table>
+...and so on. 
+</details>
+
 Because `$PSVersionTable` is an object, you can append it with a period to acess a specific property, for example, `$PSVersionTable.PSVersion`
 
+<details>
+<summary>
+Returns
+</summary>
+<table>
+<tr>
+<th>
+Name
+</th>
+<th>
+Value
+</th>
+</tr>
+<th>
+PSVersion
+</th>
+<th>
+5.1.19041.1682
+</th>
+</tr>
+</table>
+</details>
 # Locate Commands 
 
 ## Cmdlets 
