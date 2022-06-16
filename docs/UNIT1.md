@@ -1,6 +1,7 @@
 # [Introduction to Powershell - Microsoft](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/1-introduction)
 
 PowerShell is a command-line shell and a scripting language all in one.
+
 This course, provided by Microsoft, will offer introductory information to PowerShell. 
 
 ## Learning objectives
