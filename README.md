@@ -146,9 +146,13 @@ cmdlet's function.
 </details> 
 
 - Further filter the response via the `-Verb` flag 
-<sup>*syntax: `Get-Command -Verb Get -Noun File*`*</sup>
+<details>
+<summary>Hint:</summary>
+<code>syntax: `Get-Command -Verb Get -Noun File*</code>
+<details>
 
 <details> 
+
 <summary>Output:</summary>
 
 <table>
