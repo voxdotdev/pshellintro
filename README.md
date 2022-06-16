@@ -5,12 +5,10 @@ This repository will cover the PowerShell coursework avaiable through
 
 Level: Beginner 
 
-### [UNIT 1](docs/UNIT1.md)
-[Introduction to PowerShell](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/)
+### [UNIT 1 - Introduction to PowerShell](docs/UNIT1.md)
 
-### [UNIT 2](docs/UNIT2.md)
-[Discover commands in PowerShell](https://docs.microsoft.com/en-us/learn/modules/discover-commands/)
+### [UNIT 2 - Discover commands in PowerShell](docs/UNIT2.md)
 
-### [UNIT 3](docs/UNIT3.md)
+### [UNIT 3 - TBA](docs/UNIT3.md)
 
-### [UNIT 4](docs/UNIT4.md)
+### [UNIT 4 - TBA](docs/UNIT4.md)
