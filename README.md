@@ -65,7 +65,7 @@ Cmdlets are named according to a verb-noun naming standard.
 This pattern can help you to understand what a cmdlet does and how to search for one. You can see a list of approved verbs by using the Get-Verb cmdlet. 
 Verbs are organized by activity type and function. 
 <details>
-<summary>Part of the output from running Get-Verb</summary>
+<summary><strong>Part of the output from running Get-Verb</strong></summary>
 <table>
 <tr>
 <th>Verb</th>
