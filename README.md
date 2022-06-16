@@ -53,8 +53,48 @@ Typing text commands directly into a computer console
 ### [PowerShell extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
 ## Exercise - Run your first PowerShell commands
+$PSVersionTable - command to verify PowerShell installation 
+
+Because $PSVersionTable is an object, you can append it with a period to acess a specific property, for example $PSVersionTable.PSVersion
 
 ## Locate Commands 
+
+A cmdlet is a compiled command. A cmdlet can be developed in .NET or .NET Core, and invoked as a command within PowerShell. 
+
+Cmdlets are named according to a verb-noun naming standard.
+This pattern can help you to understand what a cmdlet does and how to search for one. You can see a list of approved verbs by using the Get-Verb cmdlet. 
+Verbs are organized by activity type and function. 
+
+Part of the output from running Get-Verb: 
+
+`Verb        AliasPrefix Group          Description
+----        ----------- -----          -----------
+Add         a           Common         Adds a resource to a container, or atta…
+Clear       cl          Common         Removes all the resources from a contai…`
+
+This listing shows the verb and its description. 
+Cmdlet developers should use an approved verb, and ensure the verb description fits their 
+cmdlet's function. 
+
+- Get-Command - lists all of the available cmdlets on your system.
+    - To filter the list, keep in mind the verb-noun naming standard. 
+    - For example, Get-Random, Get is the verb, Random is the noun.
+    - Use flags to target either the verb or the noun in the command you want. 
+    - The flag you specify expects a value that's a string. 
+    - You can add pattern-matching characters to that string to ensure you express that. 
+        - Example: A flag's value should start or end with a certain string. 
+    `Get-Command -Noun a-noun*`
+    - -Noun: The `-Noun` flag targets the part of the command name that's related to the noun. 
+        - It targets everything after the hyphen. 
+    - This command searchs for all cmdlets whose noun part starts with a-noun.
+
+    `Get-Command -Verb Get -Noun a-noun*`
+    - -Verb: The `-Verb` flag targets the part of the command name that's related to the verb.
+        - You can combine the `-Noun` flag and the `-Verb` flag to create even more detailed filters.
+        
+- Get-Help - Invokes the built-in hlep system. alias: help 
+- Get-Member - When you call a command, the response is an object with many properties. 
+    - Run this command to drill down into that response and learn more about it. 
 
 ## Exercise - Locate Commands
 
