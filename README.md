@@ -59,11 +59,13 @@ Because `$PSVersionTable` is an object, you can append it with a period to acess
 
 ## Locate Commands 
 
+### Cmdlets 
 A cmdlet is a compiled command. A cmdlet can be developed in .NET or .NET Core, and invoked as a command within PowerShell. 
 
-## Cmdlets are named according to a verb-noun naming standard.
+Cmdlets are named according to a verb-noun naming standard.
 This pattern can help you to understand what a cmdlet does and how to search for one. You can see a list of approved verbs by using the Get-Verb cmdlet. 
 Verbs are organized by activity type and function. 
+
 <details>
 <summary><strong>Part of the output from running Get-Verb</strong></summary>
 <table>
@@ -91,6 +93,8 @@ Verbs are organized by activity type and function.
 This listing shows the verb and its description. 
 Cmdlet developers should use an approved verb, and ensure the verb description fits their 
 cmdlet's function. 
+
+### Examples
 
 - `Get-Command` lists all of the available cmdlets on your system.
     - To filter the list, keep in mind the verb-noun naming standard. 
