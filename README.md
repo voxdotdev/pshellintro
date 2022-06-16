@@ -142,6 +142,26 @@ cmdlet's function.
 </tr>
 </table>
 
+2. Further filter the response via the `-Verb` flag
+*syntax: `Get-Command -Verb Get -Noun File*`*
+
+<table>
+<tr>
+<th>CommandType</th>
+<th>Name</th>
+<th>Version</th>
+<th>Source</th>
+</tr>
+<tr>
+<th>Cmdlet</th>
+<th>Get-FileHash</th>
+<th>7.0.0.0</th>
+<th>Microsoft.PowerShell.Utility</th>
+</tr>
+</table>
+
+Only one record matches because you specified both the `-Noun` parameter and the `-Verb` parameter.
+
 ## Knowledge Check 
 
 ## Summary
