@@ -115,6 +115,8 @@ cmdlet's function.
 ## Exercise - Locate Commands
 1. Run `Get-Command -Noun File*`
 
+<details> 
+<summary>Output:</summary>
 <table>
 <tr>
 <th>CommandType</th>
@@ -141,6 +143,7 @@ cmdlet's function.
 <th>Microsoft.PowerShell.Utility</th>
 </tr>
 </table>
+</details> 
 
 2. Further filter the response via the `-Verb` flag 
 <sup>*syntax: `Get-Command -Verb Get -Noun File*`*</sup>
