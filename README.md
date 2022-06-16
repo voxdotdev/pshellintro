@@ -64,8 +64,8 @@ A cmdlet is a compiled command. A cmdlet can be developed in .NET or .NET Core, 
 Cmdlets are named according to a verb-noun naming standard.
 This pattern can help you to understand what a cmdlet does and how to search for one. You can see a list of approved verbs by using the Get-Verb cmdlet. 
 Verbs are organized by activity type and function. 
-
-Part of the output from running Get-Verb: 
+<details>
+<summary>Part of the output from running Get-Verb</summary>
 <table>
 <tr>
 <th>Verb</th>
@@ -86,6 +86,7 @@ Part of the output from running Get-Verb:
 <th>Removes all the resources from a contai…`</th>
 </tr>
 </table>
+</details>
 
 This listing shows the verb and its description. 
 Cmdlet developers should use an approved verb, and ensure the verb description fits their 
