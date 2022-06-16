@@ -175,6 +175,16 @@ cmdlet's function.
 Only one record matches because you specified both the `-Noun` parameter and the `-Verb`
 
 ## Knowledge Check 
+<details>
+<summary>
+1. What's a correct way to locate a command in PowerShell? 
+</summary>
+Call <code>Get-Command 'name of command'</code>
+<summary>
+How would you search for commands that deal with files?
+</summary>
+Call <code>Get-Command -Noun File*</code>
+</details>
 
 ## Summary
 
