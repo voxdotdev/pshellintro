@@ -149,7 +149,7 @@ cmdlet's function.
 <details>
 <summary>Hint:</summary>
 <code>syntax: `Get-Command -Verb Get -Noun File*</code>
-<details>
+</details>
 
 <details> 
 
