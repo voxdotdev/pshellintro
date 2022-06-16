@@ -190,4 +190,8 @@ Call <code>Get-Command -Noun File*</code>
 </details>
 
 ## Summary
+In this module, you started by learning what PowerShell is and what you can use it for.
+You then learned about compiled commands called cmdlets. 
+You looked specifically at a command called Get-Command that helps you locate the command you need.
 
+# [Resources](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?preserve-view=true&view=powershell-7.2&WT.mc_id=academic-16634-chnoring&viewFallbackFrom=powershell-7.1)
