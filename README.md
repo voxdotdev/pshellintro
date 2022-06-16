@@ -99,12 +99,12 @@ cmdlet's function.
     - You can add pattern-matching characters to that string to ensure you express that. 
         - Example: A flag's value should start or end with a certain string. 
     `Get-Command -Noun a-noun*`
-    - -Noun: The `-Noun` flag targets the part of the command name that's related to the noun. 
+    - `-Noun` flag targets the part of the command name that's related to the noun. 
         - It targets everything after the hyphen. 
     - This command searchs for all cmdlets whose noun part starts with a-noun.
 
     `Get-Command -Verb Get -Noun a-noun*`
-    - -Verb: The `-Verb` flag targets the part of the command name that's related to the verb.
+    - `-Verb` flag targets the part of the command name that's related to the verb.
         - You can combine the `-Noun` flag and the `-Verb` flag to create even more detailed filters.
 
 - Get-Help - Invokes the built-in hlep system. alias: help 
