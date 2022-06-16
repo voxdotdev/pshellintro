@@ -143,6 +143,7 @@ cmdlet's function.
 </table>
 
 2. Further filter the response via the `-Verb` flag
+
 *syntax: `Get-Command -Verb Get -Noun File*`*
 
 <table>
@@ -160,7 +161,7 @@ cmdlet's function.
 </tr>
 </table>
 
-Only one record matches because you specified both the `-Noun` parameter and the `-Verb` parameter.
+Only one record matches because you specified both the `-Noun` parameter and the `-Verb`
 
 ## Knowledge Check 
 
