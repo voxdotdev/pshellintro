@@ -113,6 +113,34 @@ cmdlet's function.
     - Run this command to drill down into that response and learn more about it. 
 
 ## Exercise - Locate Commands
+1. Run `Get-Command -Noun File*` and record response. 
+Response: 
+<table>
+<tr>
+<th>CommandType</th>
+<th>Name</th>
+<th>Version</th>
+<th>Source</th>
+</tr>
+<tr>
+<th>Cmdlet</th>
+<th>Get-FileHash</th>
+<th>7.0.0.0</th>
+<th>Microsoft.PowerShell.Utility</th>
+</tr>
+<tr>
+<th>Cmdlet</th>
+<th>Out-File</th>
+<th>7.0.0.0</th>
+<th>Microsoft.PowerShell.Utility</th>
+</tr>
+<tr>
+<th>Cmdlet</th>
+<th>Unblock-File</th>
+<th>7.0.0.0</th>
+<th>Microsoft.PowerShell.Utility</th>
+</tr>
+</table>
 
 ## Knowledge Check 
 
