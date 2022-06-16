@@ -52,7 +52,7 @@ Typing text commands directly into a computer console
 
 ### PowerShell extension for Visual Studio Code
 
-Recommended Visual Studio Code Plugin (https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
+[Recommended Visual Studio Code Plugin](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
 ## Exercise - Run your first PowerShell commands
 
