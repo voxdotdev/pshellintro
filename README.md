@@ -66,11 +66,17 @@ This pattern can help you to understand what a cmdlet does and how to search for
 Verbs are organized by activity type and function. 
 
 Part of the output from running Get-Verb: 
-
-`Verb        AliasPrefix Group          Description
+<table>
+<tr>
+<th>Verb</th>
+<th>AliasPrefix</th>
+<th>Group</th>
+<th>Description</th>
+</tr>
 ----        ----------- -----          -----------
 Add         a           Common         Adds a resource to a container, or atta…
 Clear       cl          Common         Removes all the resources from a contai…`
+</table>
 
 This listing shows the verb and its description. 
 Cmdlet developers should use an approved verb, and ensure the verb description fits their 
@@ -91,7 +97,7 @@ cmdlet's function.
     `Get-Command -Verb Get -Noun a-noun*`
     - -Verb: The `-Verb` flag targets the part of the command name that's related to the verb.
         - You can combine the `-Noun` flag and the `-Verb` flag to create even more detailed filters.
-        
+
 - Get-Help - Invokes the built-in hlep system. alias: help 
 - Get-Member - When you call a command, the response is an object with many properties. 
     - Run this command to drill down into that response and learn more about it. 
