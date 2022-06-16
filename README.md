@@ -73,9 +73,18 @@ Part of the output from running Get-Verb:
 <th>Group</th>
 <th>Description</th>
 </tr>
-----        ----------- -----          -----------
-Add         a           Common         Adds a resource to a container, or atta…
-Clear       cl          Common         Removes all the resources from a contai…`
+<tr>
+<th>Add</th>         
+<th>a</th>
+<th>Common</th>
+<th>Adds a resource to a container, or atta…</th>
+</tr>
+<tr>
+<th>Clear</th>       
+<th>cl</th>  
+<th>Common</th>        
+<th>Removes all the resources from a contai…`</th>
+</tr>
 </table>
 
 This listing shows the verb and its description. 
