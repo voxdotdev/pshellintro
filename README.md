@@ -1,7 +1,7 @@
 ## Overview 
 
 This repository will cover the PowerShell coursework avaiable through 
-[Microsoft's Learn modules](https://docs.microsoft.com/en-us/learn/browse/?terms=powershell&levels=beginner)
+[Microsoft's Learn modules](https://docs.microsoft.com/en-us/learn/browse/?terms=powershell&levels=beginner).
 
 Level: Beginner 
 
