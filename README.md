@@ -1,8 +1,6 @@
+## Introduction
+
 ### [Introduction to Powershell - Microsoft](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/1-introduction)
-
-
-
-### Introduction
 
 PowerShell is a command-line shell and a scripting language all in one.
 This course, provided by Microsoft, will offer introductory information to PowerShell. 
@@ -181,14 +179,15 @@ cmdlet's function.
 Only one record matches because you specified both the `-Noun` parameter and the `-Verb`
 
 ## Knowledge Check 
-<details>
+### <details>
 <summary>
 1. What's a correct way to locate a command in PowerShell? 
 </summary>
 Call <code>Get-Command 'name of command'</code>
 
 </details>
-<details>
+
+### <details>
 <summary>
 2. How would you search for commands that deal with files?
 </summary>
