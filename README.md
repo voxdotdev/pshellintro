@@ -53,9 +53,9 @@ Typing text commands directly into a computer console
 ### [PowerShell extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
 ## Exercise - Run your first PowerShell commands
-$PSVersionTable - command to verify PowerShell installation 
+`$PSVersionTable` - command to verify PowerShell installation 
 
-Because $PSVersionTable is an object, you can append it with a period to acess a specific property, for example $PSVersionTable.PSVersion
+Because `$PSVersionTable` is an object, you can append it with a period to acess a specific property, for example, `$PSVersionTable.PSVersion`
 
 ## Locate Commands 
 
@@ -91,7 +91,7 @@ This listing shows the verb and its description.
 Cmdlet developers should use an approved verb, and ensure the verb description fits their 
 cmdlet's function. 
 
-- Get-Command - lists all of the available cmdlets on your system.
+- `Get-Command` lists all of the available cmdlets on your system.
     - To filter the list, keep in mind the verb-noun naming standard. 
     - For example, Get-Random, Get is the verb, Random is the noun.
     - Use flags to target either the verb or the noun in the command you want. 
@@ -108,8 +108,8 @@ cmdlet's function.
     - `-Verb` flag targets the part of the command name that's related to the verb.
         - You can combine the `-Noun` flag and the `-Verb` flag to create even more detailed filters.
 
-- Get-Help - Invokes the built-in hlep system. alias: help 
-- Get-Member - When you call a command, the response is an object with many properties. 
+- `Get-Help` Invokes the built-in hlep system. alias: help 
+- `Get-Member` When you call a command, the response is an object with many properties. 
     - Run this command to drill down into that response and learn more about it. 
 
 ## Exercise - Locate Commands
