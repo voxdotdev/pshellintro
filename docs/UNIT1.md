@@ -51,8 +51,7 @@ Typing text commands directly into a computer console
 
 # Exercise - Run your first PowerShell commands
 
-## `$PSVersionTable`
-- command to verify PowerShell installation 
+## `$PSVersionTable` - command to verify PowerShell installation 
 
 <details>
 <summary>
