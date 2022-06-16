@@ -61,7 +61,7 @@ Because `$PSVersionTable` is an object, you can append it with a period to acess
 
 A cmdlet is a compiled command. A cmdlet can be developed in .NET or .NET Core, and invoked as a command within PowerShell. 
 
-Cmdlets are named according to a verb-noun naming standard.
+## Cmdlets are named according to a verb-noun naming standard.
 This pattern can help you to understand what a cmdlet does and how to search for one. You can see a list of approved verbs by using the Get-Verb cmdlet. 
 Verbs are organized by activity type and function. 
 <details>
