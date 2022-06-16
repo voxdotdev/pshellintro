@@ -10,3 +10,22 @@
 | | SUMMARY             [7] | |
 | |_________________________| |
 |_____________________________|
+
+WHAT IS POWERSHELL? 
+
+PowerShell is made up of two parts, a command-line shell and a scripting language.
+PS is cross-platform. 
+
+Command line shell: no graphical interface 
+Typing text commands directly into a computer console
+- Benefits: Faster than navigating through UI 
+- Batch commands together in a script for automation
+- Console interacts with cloud resources 
+- Storing commands in a text file can be used as a source-control system
+  - `git add .` , `git commit -m "iteration %num%"` 
+
+Features of PowerShell shared with traditional shells:
+- Built in help - also integrates with online help articles
+- Pipeline - The output of one command is the input for the next command.
+- Aliases - alternate names that can be used to run commands 
+-- such as cls (clear the screen) and ls (list the files
