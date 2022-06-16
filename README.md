@@ -141,8 +141,9 @@ cmdlet's function.
 <th>Microsoft.PowerShell.Utility</th>
 </tr>
 </table>
+2. Further filter the response via the `-Verb` flag 
 <details> 
-<summary>2. Further filter the response via the `-Verb` flag 
+<summary>Output:
 <sup>*syntax: `Get-Command -Verb Get -Noun File*`*</sup></summary>
 
 
