@@ -1,16 +1,14 @@
-## Introduction
-
-### [Introduction to Powershell - Microsoft](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/1-introduction)
+# [Introduction to Powershell - Microsoft](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/1-introduction)
 
 PowerShell is a command-line shell and a scripting language all in one.
 This course, provided by Microsoft, will offer introductory information to PowerShell. 
 
-### Learning objectives
+## Learning objectives
 
 Understand what PowerShell is, uses 
 Use commands to automate tasks 
 
-### Prerequisites 
+## Prerequisites 
 Command line shells (Command Prompt / Git Bash)
 Basic understanding of Visual Studio Code + Extensions 
 
@@ -27,13 +25,13 @@ Typing text commands directly into a computer console
 - Storing commands in a text file can be used as a source-control system
   - `git add .` , `git commit -m "iteration %num%"` 
 
-### Features of PowerShell shared with traditional shells:
+## Features of PowerShell shared with traditional shells:
 - Built in help - also integrates with online help articles
 - Pipeline - The output of one command is the input for the next command
 - Aliases - alternate names that can be used to run commands,
     - such as cls (clear the screen) and ls (list the files
 
-### Features of PowerShell unique from traditional shells:
+## Features of PowerShell unique from traditional shells:
 - It operates on objects over text
 - In command-line shell you have to run scripts where output and input might differ
 - In comparison, PowerShell uses objects as input and output, meaning less time formatting / extracting 
@@ -44,22 +42,22 @@ Typing text commands directly into a computer console
 - Command Diversity - Commands in PowerShell can be native executables, cmdlets, functions, scripts, or aliases. 
     - Every command you run belongs to one of these types. Cmdlet being a type of command, the terminology is used interchangably. 
 
-### Installation
+## Installation
 - PowerShell is cross-platform but if using anything beyond Windows 8 or later, installation will be required. 
 - Windows 8+, You can open Windows PowerShell from the Start menu.
 
-### [PowerShell extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
+## [PowerShell extension for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=ms-vscode.PowerShell)
 
-## Exercise - Run your first PowerShell commands
+# Exercise - Run your first PowerShell commands
 
-### `$PSVersionTable`
+## `$PSVersionTable`
 - command to verify PowerShell installation 
 
 Because `$PSVersionTable` is an object, you can append it with a period to acess a specific property, for example, `$PSVersionTable.PSVersion`
 
-## Locate Commands 
+# Locate Commands 
 
-### Cmdlets 
+## Cmdlets 
 A cmdlet is a compiled command. A cmdlet can be developed in .NET or .NET Core, and invoked as a command within PowerShell. 
 
 Cmdlets are named according to a verb-noun naming standard.
@@ -94,7 +92,7 @@ This listing shows the verb and its description.
 Cmdlet developers should use an approved verb, and ensure the verb description fits their 
 cmdlet's function. 
 
-### Examples
+## Examples
 
 - `Get-Command` lists all of the available cmdlets on your system.
     - To filter the list, keep in mind the verb-noun naming standard. 
@@ -117,8 +115,8 @@ cmdlet's function.
 - `Get-Member` When you call a command, the response is an object with many properties. 
     - Run this command to drill down into that response and learn more about it. 
 
-## Exercise - Locate Commands
-### Run `Get-Command -Noun File*`
+# Exercise - Locate Commands
+## Run `Get-Command -Noun File*`
 
 <details> 
 <summary>Output</summary>
@@ -150,7 +148,7 @@ cmdlet's function.
 </table>
 </details> 
 
-### Further filter the response via the `-Verb` flag 
+## Further filter the response via the `-Verb` flag 
 <details>
 <summary>Hint</summary>
 <code>syntax: `Get-Command -Verb Get -Noun File*</code>
@@ -178,25 +176,28 @@ cmdlet's function.
 
 Only one record matches because you specified both the `-Noun` parameter and the `-Verb`
 
-## Knowledge Check 
+# Knowledge Check 
 
-### What's a correct way to locate a command in PowerShell? 
+## What's a correct way to locate a command in PowerShell? 
 <details>
 <summary>
 </summary>
 Call <code>Get-Command 'name of command'</code>
 </details>
 
-### How would you search for commands that deal with files?
+## How would you search for commands that deal with files?
 <details>
 <summary>
 </summary>
 Call <code>Get-Command -Noun File*</code>
 </details>
 
-## Summary
+# Summary
+
 In this module, you started by learning what PowerShell is and what you can use it for.
 You then learned about compiled commands called cmdlets. 
 You looked specifically at a command called Get-Command that helps you locate the command you need.
 
 # [Resources](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?preserve-view=true&view=powershell-7.2&WT.mc_id=academic-16634-chnoring&viewFallbackFrom=powershell-7.1)
+
+<sup>[Return to README.md](/README.md)</sup>
