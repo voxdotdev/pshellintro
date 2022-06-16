@@ -97,7 +97,8 @@ cmdlet's function.
     - Use flags to target either the verb or the noun in the command you want. 
     - The flag you specify expects a value that's a string. 
     - You can add pattern-matching characters to that string to ensure you express that. 
-        - Example: A flag's value should start or end with a certain string. 
+        - A flag's value should start or end with a certain string. 
+
     `Get-Command -Noun a-noun*`
     - `-Noun` flag targets the part of the command name that's related to the noun. 
         - It targets everything after the hyphen. 
