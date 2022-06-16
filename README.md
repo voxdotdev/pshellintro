@@ -113,7 +113,7 @@ cmdlet's function.
     - Run this command to drill down into that response and learn more about it. 
 
 ## Exercise - Locate Commands
-1. Run `Get-Command -Noun File*`
+- Run `Get-Command -Noun File*`
 
 <details> 
 <summary>Output:</summary>
@@ -145,7 +145,7 @@ cmdlet's function.
 </table>
 </details> 
 
-2. Further filter the response via the `-Verb` flag 
+- Further filter the response via the `-Verb` flag 
 <sup>*syntax: `Get-Command -Verb Get -Noun File*`*</sup>
 
 <details> 
