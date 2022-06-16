@@ -116,7 +116,7 @@ cmdlet's function.
 - Run `Get-Command -Noun File*`
 
 <details> 
-<summary>Output:</summary>
+<summary>Output</summary>
 <table>
 <tr>
 <th>CommandType</th>
@@ -147,13 +147,13 @@ cmdlet's function.
 
 - Further filter the response via the `-Verb` flag 
 <details>
-<summary>Hint:</summary>
+<summary>Hint</summary>
 <code>syntax: `Get-Command -Verb Get -Noun File*</code>
 </details>
 
 <details> 
 
-<summary>Output:</summary>
+<summary>Output</summary>
 
 <table>
 <tr>
