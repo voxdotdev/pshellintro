@@ -70,6 +70,135 @@ This will pipe `Get-Help` through a function to limit output line by line by sec
 3. Run `help Get-FileHash -Examples`
 
 For commands, add the flag `-Examples` when you search for help to quickly see an example if available.
+
+# Discover objects
+When a cmdlet runs, it returns an object. The response you see on invoking a cmdlet has been formatted and might not necessarily represent all the avialable information for the response. 
+To know more about what's being returned and how you can modify it, you can use the `Get-Member`
+
+## Discover objects by using `Get-Member`
+The `Get-Member` cmdlet is meant to be piped on top of the command you run so you can filter the output. 
+
+<details>
+<summary>
+Syntax
+</summary>
+<code>Get-Process -Name 'name-of-process' | Get-Member</code>
+<code>Get-Process</code> returns a matching process running on target machine</br>
+<code>Get-Member</code> gets the properties (Name, MemberType, Definition) of objects</br>
+
+To get a list of the processes running on your machine, run <code>Get-Process</code>.
+</details>
+
+## Search by type
+Running <code>Get-Process</code> returns an object, which is then passed to <code>Get-Member</code>
+by using the pipe <code>|</code>
+
+
+<details>
+    <summary>Let's say you invoked the PoweShell command that lists all members for the windows process "explorer". </br>
+    </summary>
+    <code>Get-Process -Name explorer | Get-Member</code>
+</details>
+</br>
+    <table>
+        <strong>TypeName: System.Diagnostics.Process</strong>
+        <tr>
+            <th>Name</th>
+            <th>MemberType</th>
+            <th>Definition</th>
+        </tr>
+        <tr>
+            <td>Handles</td>
+            <td>AliasProperty</td>
+            <td>Handles = Handlecount</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>AliasProperty</td>
+            <td>Name = ProcessName</td>
+        </tr>
+        <tr>
+            <td>NPM</td>
+            <td>AliasProperty</td>
+            <td>NPM = NonpagedSystemMemorySize64</td>
+        </tr>
+    </table>The first row indicates that the type is System.Diagnostics.Process.
+
+</br>
+<details>
+<summary>Use this type (<code>Process</code>) as a search argument to look for other cmdlets that use this type.</summary>
+<code>Get-Command -ParameterType Process</code>
+
+</details>
+</br>
+    <table>
+        <tr>
+            <th>CommandType</th>
+            <th>Name</th>
+            <th>Version</th>
+            <th>Source</th>
+        </tr>
+        <tr>
+            <td>Cmdlet</td>
+            <td>Get-PSHostProcessInfo</td>
+            <td>3.0.0.0</td>
+            <td>Microsoft.PowerShell.Core</td>
+        </tr>
+        <tr>
+            <td>Cmdlet</td>
+            <td>Enter-PSHostProcess</td>
+            <td>3.0.0.0</td>
+            <td>Microsoft.PowerShell.Core</td>
+        </tr>
+    </table>
+    The result is a list of cmdlets that operate on this type.
+</br>
+
+
+## Filter a `Get-Member` result by using Select-Object
+When you run `Get-Member`, the result is verbose, many rows are returned.
+To make things easier to read, you can filter on sepcific columns, as well as descibe which columns to display.
+
+<details>
+<summary>Take a look at at a <code>Get-Member</code> response that includes many columns. 
+    By introducting the <code>Select-Object</code> cmdlet, you can choose which columns appear in the response.
+    The command expects either a comma-separated list of columns names, or a wildcard character <code>*</code>,
+    which indicates all columns.</summary>
+<code>Get-Process -Name explorer | Get-Member | Select-Object Name, MemberType</code>
+</details>
+</br>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>MemberType</th>
+        </tr>
+        <tr>
+            <td>Handles</td>
+            <td>AliasProperty</td>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td>AliasProperty</td>
+        </tr>
+        <tr>
+            <td>NPM</td>
+            <td>AliasProperty</td>
+        </tr>
+    </table>
+
+Definition column was ommited from the results
+
+<details>
+<summary>
+    You also can filter the response by rows.
+</summary>
+<code>Get-Process -Name explorer | Get-Member -MemberType AliasProperty</code>
+</details>
+
+</br>
+<a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-7.2">Additional Reading</a>
+
+
 #
 <sup>[Return to README.md](/README.md)</sup>
 

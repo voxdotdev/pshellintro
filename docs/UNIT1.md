@@ -41,61 +41,39 @@ Typing text commands directly into a computer console
 ## `$PSVersionTable` - command to verify PowerShell installation 
 
 <details>
-<summary>
-Returns
-</summary>
-<table>
-<tr>
-<th>
-Name
-</th>
-<th>
-Value
-</th>
-</tr>
-<tr>
-<th>
-PSVersion
-</th>
-<th>
-5.1.19041.1682
-</th>
-</tr>
-<tr>
-<th>
-PSEdition
-</th>
-<th>
-Desktop
-</th>
-</tr>
-</table>
-...and so on. 
+    <summary>
+        Returns
+    </summary>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>PSVersion</td>
+            <td>5.1.19041.1682</td>
+        </tr>
+        <tr>
+            <td>PSEdition</td>
+            <td>Desktop</td>
+        </tr>
+    </table>
+    ...and so on.
 </details>
 
 Because `$PSVersionTable` is an object, you can append it with a period to acess a specific property, for example, `$PSVersionTable.PSVersion`
-
 <details>
-<summary>
-Returns
-</summary>
-<table>
-<tr>
-<th>
-Name
-</th>
-<th>
-Value
-</th>
-</tr>
-<th>
-PSVersion
-</th>
-<th>
-5.1.19041.1682
-</th>
-</tr>
-</table>
+    <summary>Returns</summary>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Value</th>
+        </tr>
+        <tr>
+            <td>PSVersion</td>
+            <td>5.1.19041.1682</td>
+        </tr>
+    </table>
 </details>
 
 # Locate Commands 
@@ -108,27 +86,27 @@ This pattern can help you to understand what a cmdlet does and how to search for
 Verbs are organized by activity type and function. 
 
 <details>
-<summary><strong>Part of the output from running Get-Verb</strong></summary>
-<table>
-<tr>
-<th>Verb</th>
-<th>AliasPrefix</th>
-<th>Group</th>
-<th>Description</th>
-</tr>
-<tr>
-<th>Add</th>         
-<th>a</th>
-<th>Common</th>
-<th>Adds a resource to a container, or atta…</th>
-</tr>
-<tr>
-<th>Clear</th>       
-<th>cl</th>  
-<th>Common</th>        
-<th>Removes all the resources from a contai…`</th>
-</tr>
-</table>
+    <summary><strong>Part of the output from running Get-Verb</strong></summary>
+    <table>
+        <tr>
+            <th>Verb</th>
+            <th>AliasPrefix</th>
+            <th>Group</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>Add</td>
+            <td>a</td>
+            <td>Common</td>
+            <td>Adds a resource to a container, or atta…</td>
+        </tr>
+        <tr>
+            <td>Clear</td>
+            <td>cl</td>
+            <td>Common</td>
+            <td>Removes all the resources from a contai…`</td>
+        </tr>
+    </table>
 </details>
 
 This listing shows the verb and its description. 
@@ -161,61 +139,61 @@ cmdlet's function.
 # Exercise - Locate Commands
 ## Run `Get-Command -Noun File*`
 
-<details> 
-<summary>Output</summary>
-<table>
-<tr>
-<th>CommandType</th>
-<th>Name</th>
-<th>Version</th>
-<th>Source</th>
-</tr>
-<tr>
-<th>Cmdlet</th>
-<th>Get-FileHash</th>
-<th>7.0.0.0</th>
-<th>Microsoft.PowerShell.Utility</th>
-</tr>
-<tr>
-<th>Cmdlet</th>
-<th>Out-File</th>
-<th>7.0.0.0</th>
-<th>Microsoft.PowerShell.Utility</th>
-</tr>
-<tr>
-<th>Cmdlet</th>
-<th>Unblock-File</th>
-<th>7.0.0.0</th>
-<th>Microsoft.PowerShell.Utility</th>
-</tr>
-</table>
-</details> 
+<details>
+    <summary>Output</summary>
+    <table>
+        <tr>
+            <th>CommandType</th>
+            <th>Name</th>
+            <th>Version</th>
+            <th>Source</th>
+        </tr>
+        <tr>
+            <td>Cmdlet</td>
+            <td>Get-FileHash</td>
+            <td>7.0.0.0</td>
+            <td>Microsoft.PowerShell.Utility</td>
+        </tr>
+        <tr>
+            <td>Cmdlet</td>
+            <td>Out-File</td>
+            <td>7.0.0.0</td>
+            <td>Microsoft.PowerShell.Utility</td>
+        </tr>
+        <tr>
+            <td>Cmdlet</td>
+            <td>Unblock-File</td>
+            <td>7.0.0.0</td>
+            <td>Microsoft.PowerShell.Utility</td>
+        </tr>
+    </table>
+</details>
 
 ## Further filter the response via the `-Verb` flag 
 <details>
-<summary>Hint</summary>
-<code>syntax: `Get-Command -Verb Get -Noun File*</code>
+    <summary>Hint</summary>
+    <code>syntax: `Get-Command -Verb Get -Noun File*</code>
 </details>
 
-<details> 
+<details>
 
-<summary>Output</summary>
+    <summary>Output</summary>
 
-<table>
-<tr>
-<th>CommandType</th>
-<th>Name</th>
-<th>Version</th>
-<th>Source</th>
-</tr>
-<tr>
-<th>Cmdlet</th>
-<th>Get-FileHash</th>
-<th>7.0.0.0</th>
-<th>Microsoft.PowerShell.Utility</th>
-</tr>
-</table>
-</details> 
+    <table>
+        <tr>
+            <th>CommandType</th>
+            <th>Name</th>
+            <th>Version</th>
+            <th>Source</th>
+        </tr>
+        <tr>
+            <td>Cmdlet</td>
+            <td>Get-FileHash</td>
+            <td>7.0.0.0</td>
+            <td>Microsoft.PowerShell.Utility</td>
+        </tr>
+    </table>
+</details>
 
 Only one record matches because you specified both the `-Noun` parameter and the `-Verb`
 
