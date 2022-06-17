@@ -1,9 +1,16 @@
-## Overview 
+# [Introduction to Powershell - Microsoft](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/1-introduction)
 
 This repository will cover the PowerShell coursework avaiable through 
 [Microsoft's Learn modules](https://docs.microsoft.com/en-us/learn/browse/?terms=powershell&levels=beginner).
 
 Level: Beginner
+
+## Prerequisites 
+Command line shells (Command Prompt / Git Bash) </br>
+Basic understanding of Visual Studio Code + Extensions </br>
+[Visual Studio Terminal (Powershell)](https://code.visualstudio.com/docs/editor/integrated-terminal)
+
+#
 
 ### [UNIT 1 - Introduction to PowerShell](docs/UNIT1.md)
 

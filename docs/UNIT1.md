@@ -1,20 +1,6 @@
-# [Introduction to Powershell - Microsoft](https://docs.microsoft.com/en-us/learn/modules/introduction-to-powershell/1-introduction)
+# What is PowerShell?
 
 PowerShell is a command-line shell and a scripting language all in one.
-
-This course, provided by Microsoft, will offer introductory information to PowerShell. 
-
-## Learning objectives
-
-Understand what PowerShell is, uses 
-Use commands to automate tasks 
-
-## Prerequisites 
-Command line shells (Command Prompt / Git Bash) </br>
-Basic understanding of Visual Studio Code + Extensions </br>
-[Visual Studio Terminal (Powershell)](https://code.visualstudio.com/docs/editor/integrated-terminal)
-
-## What is PowerShell?
 
 PowerShell is made up of two parts, a command-line shell and a scripting language.
 PS is cross-platform. 
