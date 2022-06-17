@@ -3,7 +3,7 @@
 This repository will cover the PowerShell coursework avaiable through 
 [Microsoft's Learn modules](https://docs.microsoft.com/en-us/learn/browse/?terms=powershell&levels=beginner).
 
-Level: Beginner 
+Level: Beginner
 
 ### [UNIT 1 - Introduction to PowerShell](docs/UNIT1.md)
 
