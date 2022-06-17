@@ -121,10 +121,12 @@ by using the pipe <code>|</code>
             <td>NPM = NonpagedSystemMemorySize64</td>
         </tr></br>
     </table>
-   
-    
-Use this type, `Process`, as a search argument to look for other cmdlets that use this type. </br>
-`Get-Command -ParameterType Process`</br>
+
+<details>
+<summary>Use this type, <code>Process</code>, as a search argument 
+    to look for other cmdlets that use this type.</summary>
+    <code>Get-Command -ParameterType Process</code>
+</details>
     <table>
         <tr>
             <th>CommandType</th>
