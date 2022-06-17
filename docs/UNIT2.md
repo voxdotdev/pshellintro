@@ -123,7 +123,7 @@ by using the pipe <code>|</code>
     </table>
 
 <details>
-<summary>Use this type, <code>Process</code>, as a search argument 
+<summary>Use this type ()<code>Process</code>) as a search argument 
     to look for other cmdlets that use this type.</summary>
     <code>Get-Command -ParameterType Process</code>
 </details>
@@ -190,9 +190,7 @@ Definition column was ommited from the results
 <code>Get-Process -Name explorer | Get-Member -MemberType AliasProperty</code>
 </details>
 
-</br>
 <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-7.2">Additional Reading</a>
-
 
 #
 <sup>[Return to README.md](/README.md)</sup>
