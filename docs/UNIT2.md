@@ -99,7 +99,8 @@ by using the pipe <code>|</code>
 </details>
 </br>
     <table>
-        <strong>TypeName: System.Diagnostics.Process</strong>
+        <strong>TypeName: System.Diagnostics.Process</strong></br>
+        The first row indicates that the type is System.Diagnostics.Process.</br>
         <tr>
             <th>Name</th>
             <th>MemberType</th>
@@ -119,10 +120,10 @@ by using the pipe <code>|</code>
             <td>NPM</td>
             <td>AliasProperty</td>
             <td>NPM = NonpagedSystemMemorySize64</td>
-        </tr>
-    </table>The first row indicates that the type is System.Diagnostics.Process.
-
-</br>
+        </tr></br>
+    </table>
+   
+    
 <details>
 <summary>Use this type (<code>Process</code>) as a search argument to look for other cmdlets that use this type.</summary>
 <code>Get-Command -ParameterType Process</code>
