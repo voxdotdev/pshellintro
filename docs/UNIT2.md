@@ -72,11 +72,13 @@ This will pipe `Get-Help` through a function to limit output line by line by sec
 For commands, add the flag `-Examples` when you search for help to quickly see an example if available.
 
 # Discover objects
-When a cmdlet runs, it returns an object. The response you see on invoking a cmdlet has been formatted and might not necessarily represent all the avialable information for the response. 
+<p>When a cmdlet runs, it returns an object. The response you see on invoking a cmdlet has been formatted
+and might not necessarily represent all the avialable information for the response. </p>
+
 To know more about what's being returned and how you can modify it, you can use the `Get-Member`
 
 ## Discover objects by using `Get-Member`
-The `Get-Member` cmdlet is meant to be piped on top of the command you run so you can filter the output. 
+The `Get-Member` cmdlet is meant to be piped on top of the command you run so you can filter the output. </br> 
 <code>Get-Process</code> returns a matching process running on target machine</br>
 <code>Get-Member</code> gets the properties (Name, MemberType, Definition) of objects</br>
 To get a list of the processes running on your machine, run <code>Get-Process</code>.
