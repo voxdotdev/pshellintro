@@ -63,5 +63,13 @@ This will pipe `Get-Help` through a function to limit output line by line by sec
 <code>help Get-FileHash</code>
 </details>
 
+# Exercise - Using help
+
+1. Run the command `Get-Help -Name Get-FileHash`
+2. Run the command `help Get-FileHash`
+3. Run `help Get-FileHash -Examples`
+
+For commands, add the flag `-Examples` when you search for help to quickly see an example if available.
 #
- <sup>[Return to README.md](/README.md)</sup>
+<sup>[Return to README.md](/README.md)</sup>
+

@@ -10,8 +10,9 @@ Understand what PowerShell is, uses
 Use commands to automate tasks 
 
 ## Prerequisites 
-Command line shells (Command Prompt / Git Bash)
-Basic understanding of Visual Studio Code + Extensions 
+Command line shells (Command Prompt / Git Bash) </br>
+Basic understanding of Visual Studio Code + Extensions </br>
+[Visual Studio Terminal (Powershell)](https://code.visualstudio.com/docs/editor/integrated-terminal)
 
 ## What is PowerShell?
 
