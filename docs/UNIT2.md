@@ -53,7 +53,6 @@ It lists a specific parameter's properties.</br>
 <summary>Example</summary>
 <code>Get-Help Get-Help -Examples</code>
 </details>
-</br>
 
 ## Improve the reading experience
 Running `Get-Help` returns the entire help page.  A better approach is to use the `help` alias
