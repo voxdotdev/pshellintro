@@ -15,7 +15,6 @@ cmdlet to learn more about a command. Typically you invoke `Get-Help` and add th
 <summary>Example</summary>
 <code>Get-Help -Name Get Help</code>
 </details>
-</br>
 
 You may need to update Help when running `Get-Help` for the first time, which can be done via the command below.
 
@@ -28,7 +27,6 @@ You may need to update Help when running `Get-Help` for the first time, which ca
 if this returns an error, run PowerShell as admin, else disregard</a>
 </em>
 </details>
-</br>
 
 ## Explore help sections
 Invoking the Get-Help command returns information of the located cmdlet under some or all of the following categories: 
