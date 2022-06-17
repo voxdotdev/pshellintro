@@ -73,7 +73,7 @@ For commands, add the flag `-Examples` when you search for help to quickly see a
 
 # Discover objects
 <p>When a cmdlet runs, it returns an object. The response you see on invoking a cmdlet has been formatted
-and might not necessarily represent all the avialable information for the response. </p>
+and might not necessarily represent all the available information for the response. </p>
 
 To know more about what's being returned and how you can modify it, you can use the `Get-Member`
 
@@ -81,12 +81,9 @@ To know more about what's being returned and how you can modify it, you can use 
 The `Get-Member` cmdlet is meant to be piped on top of the command you run so you can filter the output. </br> 
 <code>Get-Process</code> returns a matching process running on target machine</br>
 <code>Get-Member</code> gets the properties (Name, MemberType, Definition) of objects</br>
-To get a list of the processes running on your machine, run <code>Get-Process</code>.
-<details>
-<summary>
-Syntax
-</summary>
-<code>Get-Process -Name 'name-of-process' | Get-Member</code>
+To get a list of the processes running on your machine, run <code>Get-Process</code>.</br>
+
+`Get-Process -Name 'name-of-process' | Get-Member`
 
 </details>
 
@@ -167,7 +164,6 @@ To make things easier to read, you can filter on sepcific columns, as well as de
     which indicates all columns.</summary>
 <code>Get-Process -Name explorer | Get-Member | Select-Object Name, MemberType</code>
 </details>
-</br>
     <table>
         <tr>
             <th>Name</th>
