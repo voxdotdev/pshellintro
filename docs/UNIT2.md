@@ -97,7 +97,6 @@ by using the pipe <code>|</code>
     </summary>
     <code>Get-Process -Name explorer | Get-Member</code>
 </details>
-</br>
     <table>
         <strong>TypeName: System.Diagnostics.Process</strong></br>
         The first row indicates that the type is System.Diagnostics.Process.</br>
@@ -124,12 +123,8 @@ by using the pipe <code>|</code>
     </table>
    
     
-<details>
-<summary>Use this type (<code>Process</code>) as a search argument to look for other cmdlets that use this type.</summary>
-<code>Get-Command -ParameterType Process</code>
-
-</details>
-</br>
+Use this type, `Process`, as a search argument to look for other cmdlets that use this type. </br>
+`Get-Command -ParameterType Process`</br>
     <table>
         <tr>
             <th>CommandType</th>
