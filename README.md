@@ -5,12 +5,12 @@ This repository will cover the PowerShell coursework avaiable through
 
 Level: Beginner
 
-#
+## Units
 
-### [UNIT 1 - Introduction to PowerShell](docs/UNIT1.md)
+* [1 - Introduction to PowerShell](docs/1_Introduction-to-PowerShell.md)
 
-### [UNIT 2 - Discover commands in PowerShell](docs/UNIT2.md)
+* [2 - Discover commands in PowerShell](docs/2_Discover-commands-in-PowerShell.md)
 
-### [UNIT 3 - TBA](docs/UNIT3.md)
+* [3 - Connect commands into a pipeline](docs/3_Connect-commands-into-a-pipeline.md)
 
-### [UNIT 4 - TBA](docs/UNIT4.md)
+* [4 - Write your first PowerShell code](docs/4_Write-your-first-PowerShell-code.md)

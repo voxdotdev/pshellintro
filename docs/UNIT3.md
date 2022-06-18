@@ -1,1 +1,0 @@
-<sup>[Return Home](/README.md)</sup>
