@@ -248,4 +248,6 @@ You looked specifically at a command called Get-Command that helps you locate th
 ## Resources
 [Getting Started with PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/01-getting-started?preserve-view=true&view=powershell-7.2&WT.mc_id=academic-16634-chnoring&viewFallbackFrom=powershell-7.1)
 
+## [Next Lesson](/docs/2_Discover-commands-in-PowerShell.md)
+
 <sup>[Return to README.md](/README.md)</sup>

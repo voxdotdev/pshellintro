@@ -311,5 +311,7 @@ This command produces a response that's similar to the following text: </br>
 
 [Discovering objects](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/03-discovering-objects?preserve-view=true&view=powershell-7.1&WT.mc_id=academic-16634-chnoring)
 
+## [Next Lesson](/docs/3_Connect-commands-into-a-pipeline.md)
+
 <sup>[Return Home](/README.md)</sup>
 

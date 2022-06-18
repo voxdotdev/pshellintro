@@ -7,10 +7,12 @@ Level: Beginner
 
 ## Units
 
-* [1 - Introduction to PowerShell](docs/1_Introduction-to-PowerShell.md)
+* [Introduction to PowerShell](docs/1_Introduction-to-PowerShell.md)
 
-* [2 - Discover commands in PowerShell](docs/2_Discover-commands-in-PowerShell.md)
+* [Discover commands in PowerShell](docs/2_Discover-commands-in-PowerShell.md)
 
-* [3 - Connect commands into a pipeline](docs/3_Connect-commands-into-a-pipeline.md)
+* [Connect commands into a pipeline](docs/3_Connect-commands-into-a-pipeline.md)
 
-* [4 - Write your first PowerShell code](docs/4_Write-your-first-PowerShell-code.md)
+* [Write your first PowerShell code](docs/4_Write-your-first-PowerShell-code.md)
+
+## [First Lesson](/docs/1_Introduction-to-PowerShell.md)
