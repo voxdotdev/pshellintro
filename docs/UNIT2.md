@@ -123,7 +123,7 @@ by using the pipe <code>|</code>
     </table>
 
 <details>
-<summary>Use this type ()<code>Process</code>) as a search argument 
+<summary>Use this type (<code>Process</code>) as a search argument 
     to look for other cmdlets that use this type.</summary>
     <code>Get-Command -ParameterType Process</code>
 </details>
