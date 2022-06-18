@@ -93,6 +93,7 @@ This will pipe `Get-Help` through a function to limit output line by line by sec
 
 ## Exercise - Using help
 
+### Use Get-Help to discover commands
 1. Run the command `Get-Help -Name Get-FileHash`
 2. Run the command `help Get-FileHash`
 3. Run `help Get-FileHash -Examples`
