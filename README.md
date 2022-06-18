@@ -15,4 +15,4 @@ Level: Beginner
 
 * [Write your first PowerShell code](docs/4_Write-your-first-PowerShell-code.md)
 
-## [First Lesson](/docs/1_Introduction-to-PowerShell.md)
+## [First Lesson - Introduction to PowerShell](/docs/1_Introduction-to-PowerShell.md)
