@@ -192,6 +192,85 @@ Definition column was ommited from the results
 
 <a href="https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.management/get-process?view=powershell-7.2">Additional Reading</a>
 
+
+# Exercise - Discover Objects 
+In some scenarios, you'll need to manage processes on a machine. 
+If you need to stop some of the processes, you might want to track what processes are running,
+ how many resources they're using, and their process IDs.
+
+## Discover an object by using Get-Member
+1. Run `Get-Process`</br>
+The table-like response consists of all processes that are running on your machine. 
+2. `Run Get-Process` again. This time, use the process name "explorer" and pipe  `Get-Member`.</br>
+`Get-Process -Name 'selected-process-name' | Get-Member`</br>
+This command produces a long response that consists of all members, events, and methods. </br>
+At this point, focus on the first line, which lists the following information: </br>
+<strong>TypeName: System.Diagnostics.Process</strong></br>
+Now you know that the type is `Process`.</br>
+Next, use `Get-Command` and add the type as a parameter.</br>
+3. Run Get-Command</br>
+`Get-Command -ParameterType Process` </br>
+This command produces a response that's similar to the following text: </br>
+
+<table>
+    <tr>
+        <th>CommandType</th>
+        <th>Name</th>
+        <th>Version</th>
+        <th>Source</th>
+    </tr>
+    <tr>
+        <td>Cmdlet</td>
+        <td>Debug-Process</td>
+        <td>3.1.0.0</td>
+        <td>Microsoft.PowerShell.Management</td>
+    </tr>
+    <tr>
+        <td>Cmdlet</td>
+        <td>Enter-PSHostProcess</td>
+        <td>3.0.0.0</td>
+        <td>Microsoft.PowerShell.Core</td>
+    </tr>
+    <tr>
+        <td>Cmdlet</td>
+        <td>Get-Process</td>
+        <td>3.1.0.0</td>
+        <td>Microsoft.PowerShell.Management</td>
+    </tr>
+    <tr>
+        <td>Cmdlet</td>
+        <td>Get-PSHostProcessInfo</td>
+        <td>3.0.0.0</td>
+        <td>Microsoft.PowerShell.Core</td>
+    </tr>
+</table>
+
+# Knowledge Check 
+
+<details>
+<summary>Using the help system, what command or function helps you paginate the response?</summary>
+<code>help 'command'</code>
+</details>
+
+<details>
+<summary>Which statement will most efficiently find the returned type from a command?</summary>
+<code>'command' | Get-Member</code>
+</details>
+
+# Summary
+<p>In this module, you learned how to inspect a command that you intend to use. 
+    Looking at a command before you use it helps you call the command correctly
+     and learn the different ways you can call the command.</p>
+<p>You also looked at inspecting what a command returns. PowerShell commands return objects. 
+    By calling Get-Member, you learn what type of object will be returned and the object's properties.
+     With that information, you can look for related commands that operate on same object type.</p>
+
+<p>You'll learn how to use object type information in later modules that look at pipelines 
+    and combining multiple commands in a single command.</p>
+
+# Resources
+[Core cmdlets and using the help system](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/02-help-system?preserve-view=true&view=powershell-7.1&WT.mc_id=academic-16634-chnoring)</br>
+[Discovering objects](https://docs.microsoft.com/en-us/powershell/scripting/learn/ps101/03-discovering-objects?preserve-view=true&view=powershell-7.1&WT.mc_id=academic-16634-chnoring)
 #
 <sup>[Return to README.md](/README.md)</sup>
 
