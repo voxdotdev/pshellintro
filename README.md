@@ -5,6 +5,14 @@ This repository will cover the PowerShell coursework avaiable through
 
 Level: Beginner
 
+
+Example personal use cases of PowerShell </br>
+(This list will grow as I learn more of its capabilities)
+
+* Git automation; repo commits / frequently used commands
+* Downloading files to patch for frequent updates (e.g gaming clients, community mods)
+
+
 ## Prerequisites 
 Command line shells (Command Prompt / Git Bash) </br>
 Basic understanding of Visual Studio Code + Extensions </br>
