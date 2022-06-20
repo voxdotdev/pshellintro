@@ -15,7 +15,7 @@ This repository will cover a path to understanding PowerShell through various re
 
 ## [First Lesson - Introduction to PowerShell](/docs/1_Introduction-to-PowerShell.md) </br>
 
-Units 1-4 are nearly word for word copies of the Microsoft course and are mostly redundant. They exist to reinforce my own understanding.  
+Units 1-4 are nearly word for word copies of the Microsoft courses and are mostly redundant. They exist to reinforce my own understanding.  
 
 It is expected after Unit 4 further docs or projects added to this repo will be focused around personal interests via various resources.  
 
