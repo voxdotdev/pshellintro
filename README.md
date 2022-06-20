@@ -13,8 +13,6 @@ This repository will cover a path to understanding PowerShell through various re
 
 4. [Write your first PowerShell code](docs/4_Write-your-first-PowerShell-code.md)
 
-## [First Lesson - Introduction to PowerShell](/docs/1_Introduction-to-PowerShell.md) </br>
-
 Units 1-4 are nearly word for word copies of the Microsoft courses and are mostly redundant. They exist to reinforce my own understanding.  
 
 It is expected after Unit 4 further docs or projects added to this repo will be focused around personal interests via various resources.  
@@ -25,3 +23,5 @@ For the impatient, such as yours truly, looking to start scripting ASAP: </br>
 * Take enough time to at least do the exercises, or practice any mentioned commands (ex. `Get-Process`), and how they chain (pipe) together. 
 * Absorb Unit 4 in its entirety.  
 * Feel free to reach out with any questions / suggestions / resources. Or if you're privy to github, submit a pull request. 
+
+## [First Lesson - Introduction to PowerShell](/docs/1_Introduction-to-PowerShell.md) </br>
