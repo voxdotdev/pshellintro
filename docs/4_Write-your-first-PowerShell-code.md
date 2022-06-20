@@ -12,6 +12,6 @@ After you've completed this module, you'll be able to:
    * Diagnose errors when you type code incorrectly.
    * Identify PowerShell elements such as cmdlets, parameters, inputs, and outputs.
 
-
+## Exercise - "Hello World"
 
 <sup>[Return Home](/README.md)</sup>
