@@ -1,5 +1,8 @@
 # [Connect commands into a pipeline](https://docs.microsoft.com/en-us/learn/modules/connect-commands/)
 
+## NOTE: Unit abridged 
+This unit seeks solely to provide more detail about the fundamentals regarding identifying pre-existing cmdlets and their expected behavior. Use case: Complimentary information for compiling scripts. This section has been narrowed or other wise has had entire sections omitted. This may be updated in the future, for now, review the course directly on Microsoft's website.
+
 ## Introduction
 <p>In PowerShell, you run compiled commands, or cmdlets. By connecting these cmdlets, you can create powerful combined statements, or pipelines. You'll find such combined statements useful as you're looking to automate your workflows.</p>
 
@@ -114,7 +117,6 @@ CPU value is greater than 2 are sorted in descending order,
 with the greatest CPU value at the top of the list. 
 
 What you see is a view that represents what you most likely want to see from this command. However, this view does not show you a complete set of information.
-
 
 ## Knowledge Check
 
