@@ -3,6 +3,9 @@
 This repository will cover a path to understanding PowerShell through various resources available, starting off with coursework avaiable through 
 [Microsoft's Learn modules](https://docs.microsoft.com/en-us/learn/browse/?terms=powershell&levels=beginner).
 
+
+This repo assumes readers have basic understanding of accessing a terminal via an IDE, in this case specifically Visual Studio Code was used. At the time of writing this Microsoft also provides terminal access directly through their course via an Azure sandbox. 
+
 ## Units
 
  1. [Introduction to PowerShell](docs/1_Introduction-to-PowerShell.md)
